@@ -1,0 +1,21 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "THe best way to watch a videos.",
+  "scripts": {
+    "win": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JY-Ahn/wetube-reloaded.git"
+  },
+  "author": "Junyong Ahn(junyongsw92@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JY-Ahn/wetube-reloaded/issues"
+  },
+  "homepage": "https://github.com/JY-Ahn/wetube-reloaded#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
