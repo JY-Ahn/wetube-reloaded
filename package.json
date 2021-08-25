@@ -1,9 +1,10 @@
 {
+  "type": "module",
   "name": "wetube",
   "version": "1.0.0",
   "description": "THe best way to watch a videos.",
   "scripts": {
-    "win": "node index.js"
+    "dev": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,11 @@
   "homepage": "https://github.com/JY-Ahn/wetube-reloaded#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "nodemon": "^2.0.12"
   }
 }
